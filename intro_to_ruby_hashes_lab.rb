@@ -20,7 +20,6 @@ hash[:railroads] = {
   :rent_in_dollars => {},
   :names =>{}
 }
-
 hash[:railroads][:rent_in_dollars] = {
   :one_piece_owned => "25",
   :two_pieces_owned => "50",
