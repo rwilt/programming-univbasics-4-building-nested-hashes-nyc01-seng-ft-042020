@@ -29,6 +29,7 @@ hash[:railroads][:rent_in_dollars] = {
 
 hash[:railroads][:names] = {
   :reading_railroad => {},
+  :pennsylvania_railroad => {},
   :b_and_o_railroad => {},
   :shortline_railroad => {}
 }
