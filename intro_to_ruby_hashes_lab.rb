@@ -12,10 +12,6 @@ hash[:railroads] = {:pieces => 4, :rent_in_dollars => {}, :names =>{}}
 hash
 end
 
-     Failure/Error: expect(monopoly_with_second_tier[:railroads].has_key?
-     (:pieces)).to(be_truthy, "Make sure the nested :railroads hash has a key call
-ed :pieces")
-
 
 def monopoly_with_third_tier
   # When you start writing the implementation for this method, copy the Hash
