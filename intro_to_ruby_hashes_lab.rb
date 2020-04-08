@@ -13,8 +13,8 @@ hash
 end
 
 def monopoly_with_third_tier
-base_hash
-monopoly_with_second_tier
+  hash = {:railroads => {}}
+  hash[:railroads] = {:pieces => 4, :rent_in_dollars => {}, :names =>{}}
 hash[:railroads] = {
   :pieces => 4,
   :rent_in_dollars => {},
